@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396715BA234B910500A72158 /* SimpsonSelectedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396715B9234B910500A72158 /* SimpsonSelectedPageViewController.swift */; };
+		396715BC234B912400A72158 /* SimpsonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396715BB234B912300A72158 /* SimpsonTableViewController.swift */; };
+		396715BF234B941000A72158 /* SimpsonClassFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396715BE234B941000A72158 /* SimpsonClassFile.swift */; };
+		3982F053234C8DBE009A15F0 /* LocationAddPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982F052234C8DBE009A15F0 /* LocationAddPageViewController.swift */; };
+		3982F055234C8DCC009A15F0 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982F054234C8DCC009A15F0 /* LocationTableViewController.swift */; };
 		39CA0BFD234A4A3E008EDFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA0BFC234A4A3E008EDFCE /* AppDelegate.swift */; };
 		39CA0BFF234A4A3E008EDFCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA0BFE234A4A3E008EDFCE /* SceneDelegate.swift */; };
 		39CA0C01234A4A3E008EDFCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA0C00234A4A3E008EDFCE /* ViewController.swift */; };
@@ -14,9 +19,18 @@
 		39CA0C07234A4A3E008EDFCE /* All_Packages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39CA0C05234A4A3E008EDFCE /* All_Packages.xcdatamodeld */; };
 		39CA0C09234A4A3F008EDFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CA0C08234A4A3F008EDFCE /* Assets.xcassets */; };
 		39CA0C0C234A4A3F008EDFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CA0C0A234A4A3F008EDFCE /* LaunchScreen.storyboard */; };
+		39D661D52351F3AB004D5FB0 /* GameMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D661D42351F3AB004D5FB0 /* GameMainPageViewController.swift */; };
+		39D661D72351F3BC004D5FB0 /* GamePlayGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D661D62351F3BC004D5FB0 /* GamePlayGroundViewController.swift */; };
+		39F4B541234A60140049DC16 /* ArtBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F4B540234A60140049DC16 /* ArtBookTableViewController.swift */; };
+		39F4B543234A60250049DC16 /* ArtBookAddPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F4B542234A60250049DC16 /* ArtBookAddPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		396715B9234B910500A72158 /* SimpsonSelectedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonSelectedPageViewController.swift; sourceTree = "<group>"; };
+		396715BB234B912300A72158 /* SimpsonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonTableViewController.swift; sourceTree = "<group>"; };
+		396715BE234B941000A72158 /* SimpsonClassFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonClassFile.swift; sourceTree = "<group>"; };
+		3982F052234C8DBE009A15F0 /* LocationAddPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAddPageViewController.swift; sourceTree = "<group>"; };
+		3982F054234C8DCC009A15F0 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
 		39CA0BF9234A4A3E008EDFCE /* All Packages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All Packages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CA0BFC234A4A3E008EDFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CA0BFE234A4A3E008EDFCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +40,10 @@
 		39CA0C08234A4A3F008EDFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CA0C0B234A4A3F008EDFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CA0C0D234A4A3F008EDFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D661D42351F3AB004D5FB0 /* GameMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMainPageViewController.swift; sourceTree = "<group>"; };
+		39D661D62351F3BC004D5FB0 /* GamePlayGroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayGroundViewController.swift; sourceTree = "<group>"; };
+		39F4B540234A60140049DC16 /* ArtBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookTableViewController.swift; sourceTree = "<group>"; };
+		39F4B542234A60250049DC16 /* ArtBookAddPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookAddPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		396715B8234B90BF00A72158 /* Simpsons Book Files */ = {
+			isa = PBXGroup;
+			children = (
+				396715B9234B910500A72158 /* SimpsonSelectedPageViewController.swift */,
+				396715BB234B912300A72158 /* SimpsonTableViewController.swift */,
+				396715BE234B941000A72158 /* SimpsonClassFile.swift */,
+			);
+			path = "Simpsons Book Files";
+			sourceTree = "<group>";
+		};
+		396715BD234B913B00A72158 /* Art Book Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F4B542234A60250049DC16 /* ArtBookAddPageViewController.swift */,
+				39F4B540234A60140049DC16 /* ArtBookTableViewController.swift */,
+			);
+			path = "Art Book Files";
+			sourceTree = "<group>";
+		};
+		3982F051234C8D93009A15F0 /* TravelBook Files */ = {
+			isa = PBXGroup;
+			children = (
+				3982F052234C8DBE009A15F0 /* LocationAddPageViewController.swift */,
+				3982F054234C8DCC009A15F0 /* LocationTableViewController.swift */,
+			);
+			path = "TravelBook Files";
+			sourceTree = "<group>";
+		};
 		39CA0BF0234A4A3E008EDFCE = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +104,29 @@
 		39CA0BFB234A4A3E008EDFCE /* All Packages */ = {
 			isa = PBXGroup;
 			children = (
-				39CA0BFC234A4A3E008EDFCE /* AppDelegate.swift */,
-				39CA0BFE234A4A3E008EDFCE /* SceneDelegate.swift */,
+				39D661D12351F2E7004D5FB0 /* Catch the Kenny Game Files */,
+				3982F051234C8D93009A15F0 /* TravelBook Files */,
+				396715BD234B913B00A72158 /* Art Book Files */,
+				396715B8234B90BF00A72158 /* Simpsons Book Files */,
 				39CA0C00234A4A3E008EDFCE /* ViewController.swift */,
 				39CA0C02234A4A3E008EDFCE /* Main.storyboard */,
+				39CA0BFC234A4A3E008EDFCE /* AppDelegate.swift */,
+				39CA0BFE234A4A3E008EDFCE /* SceneDelegate.swift */,
 				39CA0C08234A4A3F008EDFCE /* Assets.xcassets */,
 				39CA0C0A234A4A3F008EDFCE /* LaunchScreen.storyboard */,
 				39CA0C0D234A4A3F008EDFCE /* Info.plist */,
 				39CA0C05234A4A3E008EDFCE /* All_Packages.xcdatamodeld */,
 			);
 			path = "All Packages";
+			sourceTree = "<group>";
+		};
+		39D661D12351F2E7004D5FB0 /* Catch the Kenny Game Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D661D42351F3AB004D5FB0 /* GameMainPageViewController.swift */,
+				39D661D62351F3BC004D5FB0 /* GamePlayGroundViewController.swift */,
+			);
+			path = "Catch the Kenny Game Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D661D72351F3BC004D5FB0 /* GamePlayGroundViewController.swift in Sources */,
+				39D661D52351F3AB004D5FB0 /* GameMainPageViewController.swift in Sources */,
 				39CA0C07234A4A3E008EDFCE /* All_Packages.xcdatamodeld in Sources */,
+				39F4B541234A60140049DC16 /* ArtBookTableViewController.swift in Sources */,
+				3982F053234C8DBE009A15F0 /* LocationAddPageViewController.swift in Sources */,
+				39F4B543234A60250049DC16 /* ArtBookAddPageViewController.swift in Sources */,
 				39CA0C01234A4A3E008EDFCE /* ViewController.swift in Sources */,
+				396715BA234B910500A72158 /* SimpsonSelectedPageViewController.swift in Sources */,
+				3982F055234C8DCC009A15F0 /* LocationTableViewController.swift in Sources */,
 				39CA0BFD234A4A3E008EDFCE /* AppDelegate.swift in Sources */,
+				396715BC234B912400A72158 /* SimpsonTableViewController.swift in Sources */,
+				396715BF234B941000A72158 /* SimpsonClassFile.swift in Sources */,
 				39CA0BFF234A4A3E008EDFCE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
